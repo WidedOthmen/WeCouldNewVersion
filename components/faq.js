@@ -73,7 +73,7 @@ const Faq = () => {
           <div className={styles.form}>
             <div className={styles.secondForm}>
               <div>
-                <h2>What is the utility of WeCould NFT</h2>
+                <h2>What is the supply and mint price of WeCould NFT?</h2>
               </div>
               <button className={styles.btn} onClick={() => setFaq2(!faq2)}>
                 {faq2 ? (
@@ -130,7 +130,7 @@ const Faq = () => {
           <div className={styles.form}>
             <div className={styles.secondForm}>
               <div>
-                <h2>What is the utility of WeCould NFT</h2>
+                <h2>Launch date of WeCould NFT</h2>
               </div>
               <button className={styles.btn} onClick={() => setFaq3(!faq3)}>
                 {faq3 ? (
@@ -183,7 +183,7 @@ const Faq = () => {
           <div className={styles.form}>
             <div className={styles.secondForm}>
               <div>
-                <h2>What is the utility of WeCould NFT</h2>
+                <h2>How do i buy a WeCould NFT?</h2>
               </div>
               <button className={styles.btn} onClick={() => setFaq4(!faq4)}>
                 {faq4 ? (
