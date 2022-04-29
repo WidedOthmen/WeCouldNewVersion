@@ -1,0 +1,118 @@
+.faq{
+    background-image: url(/images/bgb1.png);
+    position: relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 23rem;
+    padding-bottom: 10rem;
+    max-width: 69.375rem;
+    margin: 0 auto;
+}
+.FaqCloud{
+    display: flex;
+    justify-content: center;
+}
+.cloud{
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    -webkit-animation: Clouds-v 10s ease-in-out infinite;
+}
+@-webkit-keyframes Clouds-v {
+    from {
+        top:-8em;
+    }
+    50% {
+        top:-7em;
+    }
+    to {
+        top:-8em;
+    }
+}
+.cloudText{
+    color: white;
+    font-family: inherit;
+    font-size: 6rem;
+    position: absolute;
+    letter-spacing: 7px;
+    font-weight: 700;
+    -webkit-animation: CloudText 16s ease-in-out infinite;
+}
+@-webkit-keyframes CloudText {
+    from {
+        top: -1em;
+    }
+    50% {
+        top: 0em;
+    }
+    to {
+        top: -1em;
+    }
+}
+
+
+
+@media (min-width: 768px){
+    .faqBox {
+        width: 66.666667%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        z-index: 20;
+    }
+}
+@media (min-width: 640px){
+    .faqBox {
+        width: 75%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        z-index: 20;
+    }
+}
+@media (min-width: 1024px){
+    .faqBox{
+        padding-left: 0;
+        padding-right: 0;
+        width: 40%;
+        padding-top: 10rem;
+        z-index: 20;
+    }
+}
+@media (max-width: 640px){
+    .faqBox {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 100%;
+        z-index: 20;
+    }    
+}
+.form{
+    background-color: black;
+    border-radius: 40px;
+    border: 3px solid white;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+.secondForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondForm h2{
+    color: white;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+.btn{
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}
+.text{
+    color: white;
+    line-height: 1.5;
+    font-size: 1rem;
+}

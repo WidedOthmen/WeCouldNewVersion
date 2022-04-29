@@ -1,0 +1,304 @@
+.team{
+    background-image:url('https://static.wixstatic.com/media/2177b9_738f06c8696e451195724fe10424c32f~mv2.png/v1/fill/w_1899,h_4218,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/2177b9_738f06c8696e451195724fe10424c32f~mv2.png');
+    position: relative;
+}
+.teamCloud{
+    display: flex;
+    justify-content: center;
+}
+.cloud{
+    width: 100%;
+    height: 13%;
+    position: absolute;
+    -webkit-animation: Clouds-v 10s ease-in-out infinite;
+}
+@-webkit-keyframes Clouds-v {
+    from {
+        top:-8em;
+    }
+    50% {
+        top:-9em;
+    }
+    to {
+        top:-8em;
+    }
+}
+.cloudText{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    position: absolute;
+    font-weight: 200;
+    letter-spacing: 2px;
+    -webkit-animation: CloudText 16s ease-in-out infinite;
+}
+@-webkit-keyframes CloudText {
+    from {
+        top: 1em;
+    }
+    50% {
+        top: 0em;
+    }
+    to {
+        top: 1em;
+    }
+}
+.cloudText span{
+    font-weight: bold;
+  }
+.intro{
+    padding-top: 25rem;
+    padding-bottom: 16rem;
+    max-width: 69.375rem;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+}
+.logo img{
+    width: 816px;
+    height: 124px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.text{
+    padding: 2rem 9rem;
+}
+.text p{
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family:inherit;
+    color: white;
+}
+.world{
+    position: absolute;
+    top: 266px;
+    right: -148px;
+    width: 164px;
+    height: 135px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.world2{
+    width: 185px;
+    height: 185px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    top: 308px;
+    left: -148px;
+} 
+.world3{
+    width: 156px;
+    height: 156px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    bottom: 459px;
+    right: -160px;
+}
+.world4{
+    width: 159px;
+    height: 160px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    bottom: 145px;
+    right: -183px;
+}
+.world5{
+    width: 246px;
+    height: 246px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    bottom: -11px;
+    right: -98px;
+}
+.animation{
+    position: relative;
+}
+.animation .firstCloud{
+    right: 0;
+    position: absolute;
+    -webkit-animation: Clouds-vv  8s ease-in-out infinite;
+}
+@-webkit-keyframes Clouds-vv {
+    from {
+        bottom:1em;
+    }
+    50% {
+        bottom:0em;
+    }
+    to {
+        bottom:1em;
+    }
+}
+.animation .firstCloud img{
+    width: 480px;
+    height: 480px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.animation .secondCloud{
+    position: absolute;
+    left: 27%;
+    -webkit-animation: Clouds-h  8s ease-in-out infinite;
+}
+@-webkit-keyframes Clouds-h {
+    from {
+        bottom:-16em;
+    }
+    50% {
+        bottom:-15em;
+    }
+    to {
+        bottom:-16em;
+    }
+}
+.animation .secondCloud img{
+    width: 684px;
+    height: 684px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.firstBox{
+    max-width: 69.375rem;
+    margin: 0 auto;
+    color: white;
+    padding-top: 5rem;
+}
+.firstBox h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.firstBox h1 span{
+    color: #57dfa0;
+}
+.mainBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 6rem;
+}
+.BigBox{
+    text-align: center;
+}
+.mainBoxTitle h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-family: sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+.mainBoxTitle p{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-family: inherit;
+}
+.mainBoxImg img{
+    height: 270px;
+    width: 270px;
+    border: 4px solid white;
+}
+.threeClouds{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.threeClouds .firstCloud img{
+    width: 418px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.threeClouds .secondCloud{
+    position: relative;
+}
+.threeClouds .secondCloud img{
+    width: 202px;
+    height: 211px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    left: -87px;
+    -webkit-animation: Clouds  6s ease-in-out infinite;
+}
+
+@-webkit-keyframes Clouds {
+    from {
+        bottom:-4em;
+    }
+    50% {
+        bottom: -3em;
+    }
+    to {
+        bottom: -4em;
+    }
+}
+.threeClouds .secondCloud  .discordIcon {
+    position: absolute;
+    left: -38px;
+    top: -30px;
+    width: 38px;
+    height: 40px;
+    z-index: 9999;
+}
+.threeClouds .thirdCloud img{
+    width: 351px;
+    height: 251px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.secondBox{
+    max-width: 69.375rem;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 10rem;
+    position: relative;
+}
+.secondBox h1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: inherit;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+.Box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem 4rem;
+}
+.BoxImg img{
+    width: 202px;
+    height: 201px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.BoxTitle{
+    margin-top: 5px;
+}
+.BoxTitle p{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-family: inherit;
+    margin: 0;
+    padding: 0.15rem;
+}
+.BoxTitle img{
+    width: 30px;
+    height: 30px;
+}

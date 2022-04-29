@@ -1,0 +1,54 @@
+.art{
+  background-image: url(/images/bgb1.png);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 29rem;
+    padding-bottom: 14rem;
+    max-width: 69.375rem;
+    margin: 0 auto;
+}
+.containerPall{
+    padding-top: 2.375rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 2.375rem;
+}
+.seed{
+    flex: 1;
+    order: 1;
+}
+.seed .backgroundVideo{
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  }
+.seedText {
+    flex: 1;
+    order: 2;
+    text-align: left;
+  }
+  .seedText h1{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:700;
+    color: white;
+    margin-bottom: 1.5rem;
+    animation: h1 5s forwards;
+    font-size: 5rem;
+    text-align: center;
+  }
+  @keyframes h1 {
+    50%{
+        transform: translateY(30px);
+    }
+  }
+.seedText p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: white;
+    line-height: 1.25;
+}
