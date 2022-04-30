@@ -92,18 +92,47 @@
     top: 308px;
     left: -148px;
 } 
+.world8{
+    width: 67px;
+    height: 69px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    position: absolute;
+    top: 444px;
+    left: -203px;
+} 
 .world3{
-    width: 156px;
-    height: 156px;
+    width: 154px;
+    height: 169px;
     object-fit: cover;
     object-position: 50% 50%;
     position: absolute;
-    bottom: 459px;
-    right: -160px;
+    bottom: -101px;
+    right: -108px;
+}
+.world6{
+    width: 125px;
+    height: 139px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    bottom: -182px;
+    right: -203px;
+}
+.world7{
+    width: 383px;
+    height: 340px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    bottom: 114px;
+    left: -251px;
 }
 .world4{
-    width: 159px;
-    height: 160px;
+    width: 117px;
+    height: 118px;
     object-fit: cover;
     object-position: 50% 50%;
     position: absolute;
@@ -125,7 +154,7 @@
 .animation .firstCloud{
     right: 0;
     position: absolute;
-    -webkit-animation: Clouds-vv  8s ease-in-out infinite;
+    -webkit-animation: Clouds-vv  30s ease-in-out infinite;
 }
 @-webkit-keyframes Clouds-vv {
     from {
@@ -139,8 +168,8 @@
     }
 }
 .animation .firstCloud img{
-    width: 480px;
-    height: 480px;
+    width: 523px;
+    height: 740px;
     object-fit: cover;
     object-position: 50% 50%;
 }

@@ -13,7 +13,7 @@
 
 }
 .logo{
-  padding-top: 6rem;
+  padding-top: 11.80rem;
   width: 100%;
   text-align: center;
 }
@@ -78,13 +78,13 @@
 }
 @-webkit-keyframes Clouds-v {
   from {
-      top: 38em;
+      top: 37em;
   }
   50% {
-      top:39em;
+      top:38em;
   }
   to {
-      top: 38em;
+      top: 37em;
   }
 }
 .cloudText {
@@ -94,7 +94,7 @@
   padding: 2rem 15rem;
   color: white;
   text-align: left;
-  bottom: -540px;
+  bottom: -515px;
 }
 
 .cloudText span{

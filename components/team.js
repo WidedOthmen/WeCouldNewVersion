@@ -26,7 +26,10 @@ const Team = () => {
                 </div>
                 <img className={styles.world} src='https://static.wixstatic.com/media/2177b9_5754c5fe656147b880e96ddc6cf3fba2~mv2.png/v1/fill/w_205,h_169,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Saturn.png'/>
                 <img className={styles.world2} src='https://static.wixstatic.com/media/2177b9_7d10695cce484fbab82c43e13e7c3ed7~mv2.gif'/>
+                <img className={styles.world8} src='https://static.wixstatic.com/media/2177b9_3e78c69bb5f34729a6d51fce96baa917~mv2.png/v1/fill/w_199,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Blue%20planet.png'/>
                 <img className={styles.world3} src='https://static.wixstatic.com/media/2177b9_e3557b781a544fd0955a4662b9dd2200~mv2.gif'/>
+                <img className={styles.world6} src='https://static.wixstatic.com/media/2177b9_727ec03816d046848804d924b8c91236~mv2.gif'/>
+                <img className={styles.world7} src='https://static.wixstatic.com/media/2177b9_6b2b7f566c4241f583068791bb19d811~mv2.gif'/>
             </div>
             <div className={styles.animation}>
                 <div className={styles.firstCloud}>
